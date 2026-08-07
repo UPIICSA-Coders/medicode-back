@@ -1,0 +1,24 @@
+package org.medicode.medicodeback.domain.model;
+
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
+@Setter
+public class User {
+    private Integer idUser;
+    private String name;
+    private String firstName;
+    private String lastName;
+    private String mail;
+    private String password;
+    private String phone;
+    private String address;
+    private Integer rol;
+    private Boolean isActive;
+}
