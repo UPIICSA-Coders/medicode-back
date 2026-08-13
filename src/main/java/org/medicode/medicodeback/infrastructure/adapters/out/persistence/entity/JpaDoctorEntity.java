@@ -1,4 +1,4 @@
-package org.medicode.medicodeback.infrastructure.adapters.out.persistence;
+package org.medicode.medicodeback.infrastructure.adapters.out.persistence.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -25,7 +25,7 @@ public class JpaDoctorEntity {
     private String professionalId;
 
     @Column(name = "specialty")
-    private String specialty;
+    private Integer specialty;
 
 
 }

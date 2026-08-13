@@ -13,5 +13,5 @@ public class Doctor {
     private Integer idDoctor;
     private Integer userId;
     private String professionalId;
-    private Integer speciality;
+    private Integer specialty;
 }

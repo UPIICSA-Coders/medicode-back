@@ -1,4 +1,4 @@
-package org.medicode.medicodeback.infrastructure.adapters.out.persistence;
+package org.medicode.medicodeback.infrastructure.adapters.out.persistence.entity;
 
 
 import jakarta.persistence.*;
