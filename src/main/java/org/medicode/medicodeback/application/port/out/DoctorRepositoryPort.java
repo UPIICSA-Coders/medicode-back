@@ -10,4 +10,5 @@ public interface DoctorRepositoryPort {
     Page<Doctor> findAll(Pageable pageable);
     Optional<Doctor> findById(Integer id);
     Doctor save(Doctor doctor);
+    void deleteById(Integer doctor);
 }

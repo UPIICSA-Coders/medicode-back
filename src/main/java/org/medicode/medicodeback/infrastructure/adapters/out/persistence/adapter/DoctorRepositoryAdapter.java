@@ -34,4 +34,9 @@ public class DoctorRepositoryAdapter implements DoctorRepositoryPort {
         JpaDoctorEntity savedEntity = springDataRepository.save(entity);
         return mapper.toDomain(savedEntity);
     }
+
+    @Override
+    public void deleteById(Integer id){
+        springDataRepository.deleteById(id);
+    }
 }
