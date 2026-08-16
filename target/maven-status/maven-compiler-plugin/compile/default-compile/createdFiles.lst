@@ -1,0 +1,15 @@
+org\medicode\medicodeback\application\port\in\GetReceptionistUseCase.class
+org\medicode\medicodeback\infrastructure\adapters\in\rest\ReceptionistController.class
+org\medicode\medicodeback\application\port\in\UpdateDoctorUseCase.class
+org\medicode\medicodeback\application\service\ReceptionistService.class
+org\medicode\medicodeback\application\port\in\UseCase.class
+org\medicode\medicodeback\infrastructure\adapters\out\persistence\repository\SpringDataReceptionistRepository.class
+org\medicode\medicodeback\domain\model\Receptionist.class
+org\medicode\medicodeback\application\port\in\RegisterReceptionistUseCase.class
+org\medicode\medicodeback\infrastructure\adapters\out\persistence\adapter\ReceptionistRepositoryAdapter.class
+org\medicode\medicodeback\application\port\out\ReceptionistRepositoryPort.class
+org\medicode\medicodeback\application\port\in\DeleteDoctorUseCase.class
+org\medicode\medicodeback\infrastructure\adapters\out\persistence\entity\JpaReceptionistEntity.class
+org\medicode\medicodeback\infrastructure\adapters\out\persistence\mapper\ReceptionistMapper.class
+org\medicode\medicodeback\application\port\in\RegisterDoctorUseCase.class
+org\medicode\medicodeback\application\port\in\GetDoctorUseCase.class
