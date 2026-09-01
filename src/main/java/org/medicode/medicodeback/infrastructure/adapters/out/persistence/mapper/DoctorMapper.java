@@ -16,6 +16,10 @@ public class DoctorMapper {
         entity.setUserId(doctor.getUserId());
         entity.setProfessionalId(doctor.getProfessionalId());
         entity.setSpecialty(doctor.getSpecialty());
+        entity.setOfficeId(doctor.getOfficeId());
+        entity.setHireDate(doctor.getHireDate());
+        entity.setSchedule(doctor.getSchedule());
+        entity.setStatus(doctor.getStatus());
 
         return entity;
     }
@@ -30,6 +34,10 @@ public class DoctorMapper {
         doctor.setUserId(entity.getUserId());
         doctor.setProfessionalId(entity.getProfessionalId());
         doctor.setSpecialty(entity.getSpecialty());
+        doctor.setOfficeId(entity.getOfficeId());
+        doctor.setHireDate(entity.getHireDate());
+        doctor.setSchedule(entity.getSchedule());
+        doctor.setStatus(entity.getStatus());
 
         return doctor;
     }
